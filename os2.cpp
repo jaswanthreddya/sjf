@@ -43,12 +43,7 @@ int main()
 		cin>>pro[i].que;
 	}
 
-	/*sort is a predefined funcion  defined in algorithm.h header file,
-	it will sort the processes according to their arrival time*/
-
 	sort(pro,pro+n,compare);
-
-	// initial values
 	pro[0].ct=pro[0].bt+pro[0].at;
 	pro[0].ta=pro[0].ct-pro[0].at;
 	pro[0].wt=pro[0].ta-pro[0].bt;
