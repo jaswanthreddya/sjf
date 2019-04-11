@@ -13,8 +13,7 @@ typedef struct schedule
 bool compare(schedule a,schedule b)
 {
 	return a.at < b.at;
-	/* This process will always return TRUE 
-	if above condition comes*/
+	
 }
 
 bool compare2(schedule a,schedule b)
